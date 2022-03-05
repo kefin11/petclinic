@@ -10,8 +10,13 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.6.3</version>
   </parent>
+  
   <name>petclinic</name>
-
+  <properties>
+  <sonar.organization>kefin11</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
+  
   <properties>
 
     <!-- Generic properties -->
